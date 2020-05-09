@@ -1,15 +1,6 @@
-"""import operator
-   # using operator lib
-str_list = ["a", "b", "c", "a", "b"]
-print("LIST: ", str_list)
-res = {}
-for keys in str_list:
-    res[keys] = res.get(keys, 0) + 1
-    #print(res[keys])
-    if (res[keys] < 2):
-       print(res[keys])
-print ("Count of all characters: \n" +  str(res))
-print("MIN: ", min(res.items(), key=operator.itemgetter(1))[0])"""
+""" You are given a list of characters. Find the least popular character in the list.
+Return number of occurrences of the least popular character and the list of
+characters that have occurred that many times."""
 
 def least_pop_element(char):
     res = {}
