@@ -1,7 +1,5 @@
 """ Find two lists common elements"""
 
-
-
 import numpy as np
 
 def common(a, b):
