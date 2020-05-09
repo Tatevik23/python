@@ -1,3 +1,5 @@
+""" Find diagonal elements sum of random matrice """
+
 import numpy as np
 def diag_2k(arr):
     result = 0
